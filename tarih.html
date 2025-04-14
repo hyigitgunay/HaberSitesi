@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar2.css">
+    <link rel="stylesheet" href="anasayfa.css">
+    <title>Document</title>
+    <style>
+        .cards {
+            flex-wrap: wrap;
+            margin: 15px;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .navbar h2 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar h2 a:hover {
+            border-bottom: solid red 5px;
+            color: chocolate;
+
+        }
+
+        .card-teknoloji {
+            width: 17rem;
+            border: solid black 2px;
+            margin: 25px;
+            padding: 15px;
+
+        }
+
+        .card-teknoloji img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .Teknoloji {
+            font-size: larger;
+            font-weight: bolder;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px;
+
+        }
+
+        .card-img {
+            position: relative;
+        }
+
+        .card-img span {
+            position: absolute;
+            left: 0cm;
+            transition: 0.3s;
+        }
+
+        .card-text h2 {
+            border-bottom: solid 2px #ccc;
+        }
+
+        .baslık {
+            border-left: cornflowerblue solid 8px;
+            margin-left: 17rem;
+            margin-top: 30px;
+            padding: 15px;
+        }
+
+        span:hover {
+            padding-left: 5rem;
+        }
+
+        .Yazılım {
+            font-size: larger;
+            font-weight: bolder;
+            background-color: green;
+            color: white;
+            padding: 5px;
+
+        }
+
+        .baslık2 {
+            border-left: cornflowerblue solid 8px;
+            margin-left: 17rem;
+            margin-top: 30px;
+            padding: 15px;
+        }
+
+        .navbar2 {
+            display: flex;
+            justify-content: center;
+            border-bottom: solid black 3px;
+            height: 160px;
+            align-items: center;
+
+        }
+
+        .element {
+            padding: 50px;
+            padding-top: 5%;
+            padding-bottom: 40px;
+        }
+
+        .element img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+
+        .element li {
+            list-style-type: none;
+
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .element li a {
+            text-decoration: none;
+            color: black;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        .navbar2 a:hover {
+            border-bottom: solid black 5px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            align-items: center;
+            left: 0;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            justify-content: space-around;
+
+
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            transition: 0.3s;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            right: 0;
+        }
+
+        .logo img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+
+        .logo li {
+            display: flex;
+
+        }
+
+        .logo li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .linkler {
+            display: flex;
+        }
+
+        ul li a:hover {
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <div class="navbar">
+        <h2><a href="/index.html">Ana Sayfa</a></h2>
+        <div class="linkler">
+            <ul>
+                <li><a href="./teknoloji.html">Teknoloji</a></li>
+                <li><a href="./yazılım.html">Yazılım</a></li>
+                <li><a href="./spor.html">Futbol</a></li>
+                <li><a href="./tarih.html">Tarih</a></li>
+            </ul>
+
+        </div>
+        <div class="logo">
+            <img src="/1077114.png" alt="">
+            <li><a href="">Osman Buğra Yılmaz</a></li>
+        </div>
+
+    </div>
+    <div class="navbar2">
+        <div class="element">
+            <img src="/teknoloji-hakkinda-750x375.jpg" alt="">
+            <li><a href="./teknoloji.html">Teknoloji Haberleri</a></li>
+        </div>
+        <div class="element">
+            <img src="/en-iyi-yazilim-programlari-1170x500.jpg" alt="">
+            <li><a href="./yazılım.html">Yazılım Haberleri</a></li>
+        </div>
+        <div class="element">
+            <img src="/futbol-terimleri-sozlugu-1_5f8b338c9bbbc.jpg" alt="">
+            <li><a href="./spor.html">Futbol Haberleri</a></li>
+        </div>
+        <div class="element">
+            <img src="/images (1).jpg" alt="">
+            <li><a href="./tarih.html">Tarih Haberleri</a></li>
+        </div>
+    </div>
+
+    <div class="cards">
+
+
+
+
+
+
+        <div class="card-teknoloji">
+
+            <div class="card-img">
+                <img src="/images (1).jpg" alt="">
+                <span class="Yazılım">Tarih</span>
+            </div>
+            <div class="card-text">
+                <h2>Osmanlı’da Kadın Savaşçıların Rolü</h2>
+                <p>Osmanlı İmparatorluğu'nda pek çok savaşçı kadın bulunuyordu. Tarihçiler, bu kadınların savaşlarda ve
+                    toplumda nasıl etkili olduklarını araştırıyor, ancak hala bazı detaylar gizemini koruyor.</p>
+            </div>
+        </div>
+        <div class="card-teknoloji">
+
+            <div class="card-img">
+                <img src="/images (1).jpg" alt="">
+                <span class="Yazılım">Tarih</span>
+            </div>
+            <div class="card-text">
+                <h2>Osmanlı’da Saray Eğitimi ve Bilim İleri Düzeydeydi</h2>
+                <p>Osmanlı Sarayı, sadece yönetici sınıfı değil, bilim insanlarını ve sanatçılara da ev sahipliği
+                    yapıyordu. Osmanlı'da bilimsel gelişmelerin, sarayda eğitim gören gençlerle nasıl yayıldığına dair
+                    yeni araştırmalar ortaya çıkıyor.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
